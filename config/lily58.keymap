@@ -58,10 +58,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp GRAVE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                  &kp F1     &kp F2             &kp F3       &kp F4        &kp F5     &kp F6
-&soft_off  &none         &none         &none         &none         &none                                         &kp F7     &kp F8             &kp F9       &kp F10       &kp F11    &kp F12
-&kp GRAVE  &none         &none         &none         &none         &none                                         &kp CARET  &kp LEFT           &kp DOWN     &kp UP_ARROW  &kp RIGHT  &kp TILDE
-&kp CAPS   &none         &none         &none         &none         &none           &bt BT_CLR    &bt BT_CLR_ALL  &trans     &kp MINUS          &kp KP_PLUS  &kp LBRC      &kp RBRC   &kp PIPE
+&kp GRAVE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                  &kp F1     &kp F2             &kp F3     &kp F4        &kp F5     &kp F6
+&soft_off  &none         &none         &none         &none         &none                                         &kp F7     &kp F8             &kp F9     &kp F10       &kp F11    &kp F12
+&kp GRAVE  &none         &none         &none         &none         &none                                         &kp CARET  &kp LEFT           &kp DOWN   &kp UP_ARROW  &kp RIGHT  &kp TILDE
+&kp CAPS   &none         &none         &none         &none         &none           &bt BT_CLR    &bt BT_CLR_ALL  &kp PLUS   &kp MINUS          &kp EQUAL  &kp LBRC      &kp RBRC   &kp PIPE
                                        &trans        &screenshot   &CtrlAltDelete  &trans        &trans          &trans     &kp LS(BACKSPACE)  &trans
             >;
 
